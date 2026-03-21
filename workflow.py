@@ -579,6 +579,21 @@ def run_upload(env: str) -> None:
 # ── Main menu ──────────────────────────────────────────────────────────────────
 
 
+def _check_tunnel(env: str) -> bool:
+    """
+    Check whether the SSM tunnel is active by attempting a TCP connection
+    to the expected local port (15432 for dev, 15433 for prod).
+    Returns True if the port is open, False otherwise.
+    """
+    import socket
+    port = 15432 if env == "dev" else 15433
+    try:
+        with socket.create_connection(("127.0.0.1", port), timeout=2):
+            return True
+    except OSError:
+        return False
+
+
 def main() -> None:
     print()
     print("╔══════════════════════════════════════════════════════════╗")
@@ -590,6 +605,20 @@ def main() -> None:
 
     operation = _ask("Operation:", ["download (pull data from DB)", "upload (push data to DB)"])
     operation = "download" if operation.startswith("download") else "upload"
+
+    # ── Tunnel check ──────────────────────────────────────────────────────────
+    port = 15432 if env == "dev" else 15433
+    tunnel_cmd = "ruck-db-staging" if env == "dev" else "ruck-db-prod"
+    print(f"\n  Checking SSM tunnel on 127.0.0.1:{port}…", end=" ", flush=True)
+    if not _check_tunnel(env):
+        print("NOT FOUND")
+        print()
+        print(f"  ERROR: No active tunnel detected on port {port}.")
+        print(f"  Run '{tunnel_cmd}' in a separate terminal and try again.")
+        print()
+        print("  Setup guide: https://www.notion.so/AWS-Local-Configuration-2ad33ea5030a80649112edd494fc7c28")
+        return
+    print("OK")
 
     if operation == "download":
         run_download(env)
