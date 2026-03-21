@@ -1,0 +1,2722 @@
+{
+  "concrete_cement_and_masonry": {
+    "display_name": "Concrete, Cement & Masonry",
+    "drill_down_recommended": true,
+    "notes": "Largest category. Pavers, retaining wall systems, and CMU blocks each have enormous SKU depth.",
+    "subcategories": [
+      {
+        "slug": "concrete_mix_and_bagged_cement",
+        "display_name": "Concrete Mix & Bagged Cement",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "ready_mix_concrete",
+            "display_name": "Ready-Mix & Quikrete Products"
+          },
+          {
+            "slug": "anchoring_cement",
+            "display_name": "Anchoring & Non-Shrink Cement"
+          },
+          {
+            "slug": "hydraulic_and_specialty_cement",
+            "display_name": "Hydraulic & Specialty Cement"
+          }
+        ]
+      },
+      {
+        "slug": "mortar_grout_and_thinset",
+        "display_name": "Mortar, Grout & Thinset",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "thinset_mortar",
+            "display_name": "Thinset Mortar (Laticrete, etc.)"
+          },
+          {
+            "slug": "grout",
+            "display_name": "Grout"
+          },
+          {
+            "slug": "masonry_mortar",
+            "display_name": "Masonry Mortar (Type S, N, M)"
+          },
+          {
+            "slug": "self_leveling_underlayment",
+            "display_name": "Self-Leveling Underlayment"
+          }
+        ]
+      },
+      {
+        "slug": "brick_block_and_cmu",
+        "display_name": "Brick, Block & CMU",
+        "drill_down_recommended": true,
+        "notes": "Many block types: standard, lightweight, split face, bond beam, specialty.",
+        "tier3": [
+          {
+            "slug": "standard_cmu",
+            "display_name": "Standard CMU (8x8x16, 4x8x16, etc.)"
+          },
+          {
+            "slug": "lightweight_block",
+            "display_name": "Lightweight Block"
+          },
+          {
+            "slug": "split_face_block",
+            "display_name": "Split Face Block"
+          },
+          {
+            "slug": "bond_beam_block",
+            "display_name": "Bond Beam Block"
+          },
+          {
+            "slug": "brick",
+            "display_name": "Brick (Standard & Face Brick)"
+          },
+          {
+            "slug": "thin_brick",
+            "display_name": "Thin Brick & Brick Veneer"
+          }
+        ]
+      },
+      {
+        "slug": "concrete_and_stone_pavers",
+        "display_name": "Concrete & Stone Pavers",
+        "drill_down_recommended": true,
+        "notes": "Very wide variety \u2014 concrete, natural stone, pattern collections.",
+        "tier3": [
+          {
+            "slug": "concrete_pavers",
+            "display_name": "Concrete Pavers (Holland, Diamond, Plaza, Weston, etc.)"
+          },
+          {
+            "slug": "bluestone_and_flagstone",
+            "display_name": "Bluestone & Flagstone"
+          },
+          {
+            "slug": "travertine_pavers",
+            "display_name": "Travertine Pavers"
+          },
+          {
+            "slug": "limestone_pavers",
+            "display_name": "Limestone Pavers & Treads"
+          },
+          {
+            "slug": "pattern_paver_collections",
+            "display_name": "Pattern Paver Collections (Cumberland, Imperial, etc.)"
+          }
+        ]
+      },
+      {
+        "slug": "retaining_wall_systems",
+        "display_name": "Retaining Wall Systems",
+        "drill_down_recommended": true,
+        "notes": "Highly brand-specific \u2014 Cambridge, Sigma, Belvedere, Olde English, etc.",
+        "tier3": [
+          {
+            "slug": "wall_blocks",
+            "display_name": "Wall Blocks (Split Face, Straight, Tumbled)"
+          },
+          {
+            "slug": "corner_and_cap_units",
+            "display_name": "Corner & Cap Units"
+          },
+          {
+            "slug": "column_kits",
+            "display_name": "Column Kits & Pier Caps"
+          },
+          {
+            "slug": "geogrid_reinforcement",
+            "display_name": "Geogrid Reinforcement (Cambridge, Gator)"
+          },
+          {
+            "slug": "wall_adhesive_and_accessories",
+            "display_name": "Wall Adhesive & Accessories"
+          }
+        ]
+      },
+      {
+        "slug": "coping_and_capstones",
+        "display_name": "Coping & Capstones",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "pool_and_wall_coping",
+            "display_name": "Pool & Wall Coping (Camelback, Streamline)"
+          },
+          {
+            "slug": "concrete_capstones",
+            "display_name": "Concrete Capstones & Column Caps"
+          },
+          {
+            "slug": "natural_stone_coping",
+            "display_name": "Natural Stone Coping"
+          }
+        ]
+      },
+      {
+        "slug": "masonry_veneer_and_thin_products",
+        "display_name": "Masonry Veneer & Thin Products",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "ledgestone_and_stacked_stone",
+            "display_name": "Ledgestone & Stacked Stone"
+          },
+          {
+            "slug": "cobblestone_and_cobble_edging",
+            "display_name": "Cobblestone & Cobble Edging"
+          }
+        ]
+      },
+      {
+        "slug": "stucco_and_plaster",
+        "display_name": "Stucco & Plaster",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "stucco_base_and_finish",
+            "display_name": "Stucco Base & Finish Coat"
+          },
+          {
+            "slug": "finish_plaster",
+            "display_name": "Finish Plaster (Diamond Finish, Red Top)"
+          },
+          {
+            "slug": "floor_mud",
+            "display_name": "Floor Mud & Sand Mix"
+          }
+        ]
+      },
+      {
+        "slug": "sand_and_aggregates",
+        "display_name": "Sand & Aggregates",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "masons_sand",
+            "display_name": "Mason's Sand"
+          },
+          {
+            "slug": "polymeric_sand",
+            "display_name": "Polymeric Sand & Joint Sand (Gator, Alliance)"
+          },
+          {
+            "slug": "paver_sand",
+            "display_name": "Paver Sand & Bedding Sand"
+          }
+        ]
+      },
+      {
+        "slug": "pigments_and_colorants",
+        "display_name": "Pigments & Colorants",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cement_pigment",
+            "display_name": "Cement & Concrete Pigment"
+          },
+          {
+            "slug": "lehigh_color_systems",
+            "display_name": "Lehigh Color Systems (M, N, S, Portland)"
+          }
+        ]
+      },
+      {
+        "slug": "tile_setting_accessories",
+        "display_name": "Tile Setting Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "tile_spacers_and_wedges",
+            "display_name": "Tile Spacers & Wedges"
+          },
+          {
+            "slug": "setting_material_and_mastic",
+            "display_name": "Setting Material & Mastic"
+          },
+          {
+            "slug": "expansion_joint_material",
+            "display_name": "Expansion Joint Material (Neoprene)"
+          }
+        ]
+      },
+      {
+        "slug": "firepit_and_outdoor_kitchen_systems",
+        "display_name": "Firepit & Outdoor Kitchen Systems",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "firepit_kits",
+            "display_name": "Firepit Kits (Verona, Olde English, etc.)"
+          },
+          {
+            "slug": "outdoor_kitchen_wall_systems",
+            "display_name": "Outdoor Kitchen Wall Systems (MAYTRX, OE Wall)"
+          },
+          {
+            "slug": "fireplace_kits",
+            "display_name": "Fireplace Kits"
+          }
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "display_name": "Tools",
+    "drill_down_recommended": true,
+    "notes": "Second largest category. Masonry tools especially deep.",
+    "subcategories": [
+      {
+        "slug": "power_tools",
+        "display_name": "Power Tools",
+        "drill_down_recommended": true,
+        "tier3": [
+          {
+            "slug": "drills_and_drivers",
+            "display_name": "Drills & Drivers (DeWalt, Hilti)"
+          },
+          {
+            "slug": "saws",
+            "display_name": "Saws (Circular, Reciprocating)"
+          },
+          {
+            "slug": "breakers_and_demolition",
+            "display_name": "Breakers & Demolition Tools (Hilti TE, DeWalt Pavement Breaker)"
+          },
+          {
+            "slug": "grinders_and_polishers",
+            "display_name": "Grinders & Polishers"
+          }
+        ]
+      },
+      {
+        "slug": "outdoor_power_equipment",
+        "display_name": "Outdoor Power Equipment",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "chainsaws",
+            "display_name": "Chainsaws (STIHL)"
+          },
+          {
+            "slug": "blowers_and_trimmers",
+            "display_name": "Blowers & Trimmers (STIHL)"
+          },
+          {
+            "slug": "ope_accessories",
+            "display_name": "OPE Accessories (Chains, Bar Oil)"
+          }
+        ]
+      },
+      {
+        "slug": "masonry_and_concrete_tools",
+        "display_name": "Masonry & Concrete Tools",
+        "drill_down_recommended": true,
+        "notes": "Very deep inventory \u2014 many styles and sizes of trowels, floats, screeds.",
+        "tier3": [
+          {
+            "slug": "trowels",
+            "display_name": "Trowels (Brick, Pool, Margin, Finishing, Inside Corner)"
+          },
+          {
+            "slug": "floats",
+            "display_name": "Floats (Foam, Wood Handle, Redwood, Rubber)"
+          },
+          {
+            "slug": "screeds",
+            "display_name": "Screeds (Aluminum, Bull Float)"
+          },
+          {
+            "slug": "jointers_and_edgers",
+            "display_name": "Jointers, Edgers & Groovers"
+          },
+          {
+            "slug": "mixing_tools",
+            "display_name": "Mixing Tools (Paddles, Mud Boxes)"
+          }
+        ]
+      },
+      {
+        "slug": "cutting_tools_and_blades",
+        "display_name": "Cutting Tools & Blades",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "segmented_diamond_blades",
+            "display_name": "Segmented Diamond Blades (10\", 12\", 14\")"
+          },
+          {
+            "slug": "turbo_and_continuous_blades",
+            "display_name": "Turbo & Continuous Rim Blades"
+          },
+          {
+            "slug": "diamond_cup_wheels",
+            "display_name": "Diamond Cup Wheels & Grinding Discs"
+          },
+          {
+            "slug": "recip_and_circular_blades",
+            "display_name": "Reciprocating & Circular Saw Blades"
+          }
+        ]
+      },
+      {
+        "slug": "measuring_and_layout",
+        "display_name": "Measuring & Layout",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "levels",
+            "display_name": "Levels (Tabor, Johnson, Empire \u2014 various lengths)"
+          },
+          {
+            "slug": "squares_and_rafter_tools",
+            "display_name": "Squares & Rafter Tools (Rafter Square, Carpenter Square)"
+          },
+          {
+            "slug": "chalk_lines_and_mason_line",
+            "display_name": "Chalk Lines & Mason Line (Stringliner, Irwin)"
+          },
+          {
+            "slug": "tape_measures",
+            "display_name": "Tape Measures"
+          }
+        ]
+      },
+      {
+        "slug": "hand_tools",
+        "display_name": "Hand Tools",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "hammers_and_mallets",
+            "display_name": "Hammers & Mallets (Brick Hammer, Drilling Hammer, Estwing)"
+          },
+          {
+            "slug": "chisels_and_pry_bars",
+            "display_name": "Chisels & Pry Bars (Wrecking Bar)"
+          },
+          {
+            "slug": "wrenches_and_pliers",
+            "display_name": "Wrenches & Pliers (Pipe Wrench, Adjustable, Long Nose)"
+          },
+          {
+            "slug": "specialty_woodworking_tools",
+            "display_name": "Specialty Woodworking Tools (Draw Knife, Tenon Cutter, Forstner Bit)"
+          }
+        ]
+      },
+      {
+        "slug": "fastening_tools",
+        "display_name": "Fastening Tools",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "staplers_and_tackers",
+            "display_name": "Staplers & Hammer Tackers (Stockade, Stanley)"
+          },
+          {
+            "slug": "screw_guns",
+            "display_name": "Screw Guns & Drywall Drivers (DeWalt)"
+          }
+        ]
+      },
+      {
+        "slug": "tool_bits_and_accessories",
+        "display_name": "Tool Bits & Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "sds_plus_bits",
+            "display_name": "SDS Plus Bits (Standard, Rebar Cutters)"
+          },
+          {
+            "slug": "sds_max_bits",
+            "display_name": "SDS Max Bits"
+          },
+          {
+            "slug": "bit_holders_and_nut_setters",
+            "display_name": "Bit Holders, Nut Setters & Magnetic Tips"
+          },
+          {
+            "slug": "drill_bits",
+            "display_name": "Drill Bits (Masonry, Metal, Wood)"
+          }
+        ]
+      },
+      {
+        "slug": "abrasives_and_surface_prep",
+        "display_name": "Abrasives & Surface Prep",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "wire_wheels_and_grinding_discs",
+            "display_name": "Wire Wheels & Grinding Discs"
+          },
+          {
+            "slug": "sanding_sponges_and_blocks",
+            "display_name": "Sanding Sponges & Blocks"
+          }
+        ]
+      },
+      {
+        "slug": "site_and_rigging_tools",
+        "display_name": "Site & Rigging Tools",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "ladders",
+            "display_name": "Ladders (Fiberglass Extension)"
+          },
+          {
+            "slug": "cable_pullers_and_come_alongs",
+            "display_name": "Cable Pullers & Come-Alongs (1T, 2T)"
+          },
+          {
+            "slug": "ratchet_straps_and_bungees",
+            "display_name": "Ratchet Straps & Bungees"
+          }
+        ]
+      },
+      {
+        "slug": "brooms_and_cleaning_tools",
+        "display_name": "Brooms, Brushes & Cleaning Tools",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 many broom and brush SKUs in the data.",
+        "tier3": [
+          {
+            "slug": "push_brooms",
+            "display_name": "Push Brooms & Street Brooms (24\", 16\" poly, tampico)"
+          },
+          {
+            "slug": "brushes",
+            "display_name": "Brushes (Pot Brush, Wire Brush, Chip Brush)"
+          },
+          {
+            "slug": "scrapers_and_floor_tools",
+            "display_name": "Scrapers & Floor Tools (Floor Scraper, Red Devil)"
+          }
+        ]
+      },
+      {
+        "slug": "rental_equipment",
+        "display_name": "Rental Equipment",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "mixing_equipment_rentals",
+            "display_name": "Mixing Equipment Rentals"
+          }
+        ]
+      }
+    ]
+  },
+  "timber_logs_and_specialty_wood": {
+    "display_name": "Timber, Logs & Specialty Wood",
+    "drill_down_recommended": true,
+    "notes": "Slabs drill by species. Peeled logs drill by finish type. Heavy timbers drill by species/dimension.",
+    "subcategories": [
+      {
+        "slug": "hand_peeled_and_milled_logs",
+        "display_name": "Hand Peeled & Milled Logs",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "hand_peeled_logs",
+            "display_name": "Hand Peeled Logs"
+          },
+          {
+            "slug": "milled_and_peeled_logs",
+            "display_name": "Milled & Peeled Logs"
+          },
+          {
+            "slug": "raw_logs",
+            "display_name": "Raw Logs"
+          }
+        ]
+      },
+      {
+        "slug": "heavy_timbers",
+        "display_name": "Heavy Timbers",
+        "drill_down_recommended": false,
+        "notes": "4x4 and larger structural timbers \u2014 DF #2, 4x4 to 10x10.",
+        "tier3": [
+          {
+            "slug": "douglas_fir_timbers",
+            "display_name": "Douglas Fir Timbers (4x4 through 10x10)"
+          },
+          {
+            "slug": "cedar_timbers",
+            "display_name": "Cedar Timbers"
+          },
+          {
+            "slug": "spruce_timbers",
+            "display_name": "Spruce Timbers"
+          }
+        ]
+      },
+      {
+        "slug": "slabs_and_live_edge",
+        "display_name": "Slabs & Live Edge",
+        "drill_down_recommended": true,
+        "notes": "Drill by species.",
+        "tier3": [
+          {
+            "slug": "black_walnut_slabs",
+            "display_name": "Black Walnut Slabs"
+          },
+          {
+            "slug": "oak_slabs",
+            "display_name": "Oak Slabs"
+          },
+          {
+            "slug": "maple_slabs",
+            "display_name": "Maple Slabs & Maple Cookie"
+          },
+          {
+            "slug": "mixed_hardwood_slabs",
+            "display_name": "Mixed Hardwood Slabs (Cherry, Elm, Ash, Sycamore, etc.)"
+          }
+        ]
+      },
+      {
+        "slug": "reclaimed_wood",
+        "display_name": "Reclaimed Wood",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "reclaimed_timbers",
+            "display_name": "Reclaimed Timbers"
+          }
+        ]
+      },
+      {
+        "slug": "glulam_beams",
+        "display_name": "Glulam Beams",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "glulam_standard",
+            "display_name": "Standard Glulam Beams"
+          }
+        ]
+      },
+      {
+        "slug": "firewood",
+        "display_name": "Firewood",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "firewood_hardwood",
+            "display_name": "Hardwood Firewood (Mesquite, Oak, Pecan, Acacia, Ash)"
+          },
+          {
+            "slug": "firewood_softwood",
+            "display_name": "Softwood Firewood (Pine, Citrus)"
+          },
+          {
+            "slug": "firewood_bundles",
+            "display_name": "Firewood Bundles & Small Quantities"
+          },
+          {
+            "slug": "firewood_bulk",
+            "display_name": "Firewood Bulk (SUV Load, Truckload, Pallet)"
+          }
+        ]
+      },
+      {
+        "slug": "specialty_poles",
+        "display_name": "Specialty Poles & Posts",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "lodge_poles",
+            "display_name": "Lodge Poles"
+          },
+          {
+            "slug": "teepee_poles",
+            "display_name": "Teepee Poles"
+          }
+        ]
+      },
+      {
+        "slug": "post_and_beam_products",
+        "display_name": "Post & Beam Products",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "post_beam_kits",
+            "display_name": "Post & Beam Kits & Packages"
+          },
+          {
+            "slug": "hand_hewn_beams",
+            "display_name": "Hand Hewn Beams"
+          }
+        ]
+      },
+      {
+        "slug": "hardwood_boards_and_rough_cut",
+        "display_name": "Hardwood Boards & Rough Cut Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "full_dimension_boards",
+            "display_name": "Full-Dimension Boards (1x6, 1x8, 1x10, 1x12)"
+          },
+          {
+            "slug": "rough_cut_douglas_fir_boards",
+            "display_name": "Rough Cut Douglas Fir Boards (1x4, 1x6, 1x8, 1x12)"
+          },
+          {
+            "slug": "mixed_hardwood_boards",
+            "display_name": "Mixed Hardwood Boards (Oak, Maple, Ash, Walnut \u2014 rough)"
+          }
+        ]
+      },
+      {
+        "slug": "mantels_and_decorative_wood",
+        "display_name": "Mantels & Decorative Pieces",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "wood_mantels",
+            "display_name": "Wood Mantels (Oak, Walnut)"
+          },
+          {
+            "slug": "decorative_slabs_and_rounds",
+            "display_name": "Decorative Slabs & Wood Rounds (Maple Cookie, Carob)"
+          }
+        ]
+      }
+    ]
+  },
+  "dimensional_lumber_and_composites": {
+    "display_name": "Dimensional Lumber & Composites",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "douglas_fir_lumber",
+        "display_name": "Douglas Fir Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "df_number2_common",
+            "display_name": "DF #2 Common Boards (1x4, 1x6, 1x8, 1x12)"
+          },
+          {
+            "slug": "df_select_fohc",
+            "display_name": "DF Select & FOHC"
+          },
+          {
+            "slug": "df_framing",
+            "display_name": "DF Framing Lumber (2x4, 2x6, 2x8)"
+          }
+        ]
+      },
+      {
+        "slug": "spruce_pine_fir",
+        "display_name": "Spruce-Pine-Fir (SPF)",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "spf_framing",
+            "display_name": "SPF Framing Lumber (standard dimensions)"
+          },
+          {
+            "slug": "pine_boards",
+            "display_name": "Pine Boards (Eastern White Pine 1x6, 1x8, 1x12)"
+          }
+        ]
+      },
+      {
+        "slug": "pressure_treated_lumber",
+        "display_name": "Pressure Treated Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "pt_ground_contact",
+            "display_name": "Ground Contact Treated (structural, posts)"
+          },
+          {
+            "slug": "pt_above_ground",
+            "display_name": "Above Ground Treated (deck framing, joists)"
+          }
+        ]
+      },
+      {
+        "slug": "cedar_dimension_lumber",
+        "display_name": "Cedar Dimension Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cedar_boards",
+            "display_name": "Cedar Boards (1x4 through 1x12)"
+          }
+        ]
+      },
+      {
+        "slug": "surfaced_and_precut_lumber",
+        "display_name": "Surfaced & Pre-Cut Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "s4s_lumber",
+            "display_name": "S4S (4 sides surfaced)"
+          },
+          {
+            "slug": "s1s2e_lumber",
+            "display_name": "S1S2E (1 side, 2 edges surfaced)"
+          },
+          {
+            "slug": "precut_studs",
+            "display_name": "Pre-Cut Studs (92-5/8\" standard)"
+          }
+        ]
+      },
+      {
+        "slug": "kiln_dried_lumber",
+        "display_name": "Kiln Dried Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "kd_boards",
+            "display_name": "Kiln Dried Boards"
+          },
+          {
+            "slug": "scaffold_plank",
+            "display_name": "Scaffold Plank (OSHA 2x10)"
+          }
+        ]
+      }
+    ]
+  },
+  "decking": {
+    "display_name": "Decking",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "composite_decking_boards",
+        "display_name": "Composite Decking Boards",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "deckorators_apex",
+            "display_name": "Deckorators Apex & Apex Plus"
+          },
+          {
+            "slug": "deckorators_infinity",
+            "display_name": "Deckorators Infinity"
+          },
+          {
+            "slug": "deckorators_summit_vault_venture",
+            "display_name": "Deckorators Summit / Vault / Venture"
+          },
+          {
+            "slug": "deckorators_vista_voyage",
+            "display_name": "Deckorators Vista / Voyage"
+          },
+          {
+            "slug": "deckorators_pioneer",
+            "display_name": "Deckorators Pioneer & Legacy"
+          }
+        ]
+      },
+      {
+        "slug": "pvc_decking_boards",
+        "display_name": "PVC Decking Boards",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "pvc_decking_premium",
+            "display_name": "Premium PVC Collections"
+          }
+        ]
+      },
+      {
+        "slug": "decking_trim_and_fascia",
+        "display_name": "Decking Trim & Fascia",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "acre_trim",
+            "display_name": "ACRE Trim (composite, all sizes)"
+          },
+          {
+            "slug": "fascia_boards",
+            "display_name": "Fascia Boards (Deckorators Vault, etc.)"
+          },
+          {
+            "slug": "picture_frame_boards",
+            "display_name": "Picture Frame Boards"
+          },
+          {
+            "slug": "starter_boards",
+            "display_name": "Starter Boards"
+          }
+        ]
+      },
+      {
+        "slug": "deck_railing_systems",
+        "display_name": "Deck Railing Systems",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cinch_rail",
+            "display_name": "Cinch Rail System"
+          },
+          {
+            "slug": "fortress_rail",
+            "display_name": "Fortress Rail System"
+          },
+          {
+            "slug": "timbertech_rail",
+            "display_name": "TimberTech Rail System"
+          },
+          {
+            "slug": "ogden_deck_depot_rail",
+            "display_name": "Ogden Deck Depot Rail"
+          }
+        ]
+      },
+      {
+        "slug": "balusters_and_infill",
+        "display_name": "Balusters & Infill",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "metal_balusters",
+            "display_name": "Metal Balusters"
+          }
+        ]
+      },
+      {
+        "slug": "deck_gate_kits",
+        "display_name": "Deck Gate Kits",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "rapid_gate_kits",
+            "display_name": "Rapid Gate Kits (Deckorators, 36\" & 42\")"
+          }
+        ]
+      },
+      {
+        "slug": "deck_fasteners_and_hardware",
+        "display_name": "Deck Fasteners & Hardware",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "composite_deck_screws",
+            "display_name": "Composite Deck Screws (Starborn, Simpson)"
+          },
+          {
+            "slug": "hidden_fasteners",
+            "display_name": "Hidden Fasteners"
+          },
+          {
+            "slug": "joist_tape",
+            "display_name": "Joist Tape (Ogden Deck Depot Butyl Tape)"
+          }
+        ]
+      },
+      {
+        "slug": "stair_components",
+        "display_name": "Stair Components",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "stair_risers",
+            "display_name": "Stair Risers (Deckorators, composite)"
+          },
+          {
+            "slug": "stair_rail_kits",
+            "display_name": "Stair Rail Kits (Deckorators Rapid Stair Kit)"
+          }
+        ]
+      }
+    ]
+  },
+  "fencing": {
+    "display_name": "Fencing",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "wire_fencing",
+        "display_name": "Wire Fencing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "barbed_wire",
+            "display_name": "Barbed Wire (Class 3 & Commercial, 4-point, barbless)"
+          },
+          {
+            "slug": "field_fence",
+            "display_name": "Field Fence (various heights & gauges)"
+          },
+          {
+            "slug": "high_tensile_solid_lock",
+            "display_name": "High Tensile Solid Lock (Class 3)"
+          }
+        ]
+      },
+      {
+        "slug": "horse_and_non_climb_fencing",
+        "display_name": "Horse & Non-Climb Fencing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "non_climb_galvanized",
+            "display_name": "Non-Climb Galvanized (48\", 60\", 72\" height)"
+          },
+          {
+            "slug": "non_climb_black",
+            "display_name": "Non-Climb Black Coated (48\", 60\")"
+          }
+        ]
+      },
+      {
+        "slug": "welded_wire_fencing",
+        "display_name": "Welded Wire Fencing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "welded_wire_galvanized",
+            "display_name": "Galvanized Welded Wire (36\", 48\", 60\", 72\" height)"
+          },
+          {
+            "slug": "deer_and_rabbit_fence",
+            "display_name": "Deer & Rabbit Fence (48\", 60\")"
+          }
+        ]
+      },
+      {
+        "slug": "livestock_panels",
+        "display_name": "Livestock Panels",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cattle_panels",
+            "display_name": "Cattle Panels (1050-8-4 x 16')"
+          },
+          {
+            "slug": "hog_panels",
+            "display_name": "Hog Panels (34\" x 16')"
+          },
+          {
+            "slug": "corral_panels_flat_iron",
+            "display_name": "Flat Iron Corral Panels (light, medium duty, 5-rail)"
+          },
+          {
+            "slug": "corral_panels_mesh_filled",
+            "display_name": "Mesh-Filled Corral Panels"
+          }
+        ]
+      },
+      {
+        "slug": "split_rail_fencing",
+        "display_name": "Split Rail Fencing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "split_rails",
+            "display_name": "Split Rails (Standard & Jumbo, 8'\u201310')"
+          },
+          {
+            "slug": "split_rail_posts",
+            "display_name": "Split Rail Posts (Line, Corner, End, Blank)"
+          }
+        ]
+      },
+      {
+        "slug": "fence_gates",
+        "display_name": "Fence Gates",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "round_corner_mesh_gates",
+            "display_name": "Round Corner Mesh Gates (4'\u201316' wide)"
+          },
+          {
+            "slug": "square_corner_mesh_gates",
+            "display_name": "Square Corner Mesh Gates (4'\u201316' wide)"
+          },
+          {
+            "slug": "five_rail_gates",
+            "display_name": "5-Rail Square Corner Gates (4'\u201316' wide)"
+          }
+        ]
+      },
+      {
+        "slug": "fencing_tools_and_accessories",
+        "display_name": "Fencing Tools & Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "post_pounders",
+            "display_name": "Post Pounders (Small T-Post, Medium 4.5\", Large 6.5\")"
+          },
+          {
+            "slug": "fence_stays_and_clips",
+            "display_name": "Fence Stays & Clips"
+          }
+        ]
+      }
+    ]
+  },
+  "metals_and_metal_fabrication": {
+    "display_name": "Metals & Metal Fabrication",
+    "drill_down_recommended": true,
+    "notes": "Dominated by A500/A513 square and rectangular steel tubing in many sizes. Tier-3 organizes by size range.",
+    "subcategories": [
+      {
+        "slug": "square_tubing",
+        "display_name": "Square Tubing",
+        "drill_down_recommended": true,
+        "tier3": [
+          {
+            "slug": "square_tubing",
+            "display_name": "Square Tubing"
+          }
+        ]
+      },
+      {
+        "slug": "rectangular_tubing",
+        "display_name": "Rectangular Tubing",
+        "drill_down_recommended": true,
+        "tier3": [
+          {
+            "slug": "rectangular_tubing",
+            "display_name": "Rectangular Tubing"
+          }
+        ]
+      },
+      {
+        "slug": "structural_channel_and_angle_iron",
+        "display_name": "Structural Channel & Angle Iron",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "angle_iron",
+            "display_name": "Angle Iron (1\"\u00d71\" to 4\"\u00d73\", various wall thickness)"
+          },
+          {
+            "slug": "steel_channel",
+            "display_name": "Steel Channel (A36, various sizes)"
+          }
+        ]
+      },
+      {
+        "slug": "steel_sheet_and_plate",
+        "display_name": "Steel Sheet & Plate",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "carbon_steel_sheet_1095",
+            "display_name": "1095 Annealed Carbon Steel Sheet (cut-to-size)"
+          },
+          {
+            "slug": "steel_plate",
+            "display_name": "Steel Plate"
+          }
+        ]
+      },
+      {
+        "slug": "steel_pipe",
+        "display_name": "Steel Pipe",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "sch40_pipe",
+            "display_name": "Schedule 40 Pipe (A53 welded)"
+          }
+        ]
+      },
+      {
+        "slug": "metal_accessories_and_fittings",
+        "display_name": "Metal Accessories & Fittings",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "end_caps_and_plugs",
+            "display_name": "End Caps, Square Caps & Domed Caps"
+          },
+          {
+            "slug": "cee_and_zee_purlin",
+            "display_name": "CEE & ZEE Purlin (cold-formed framing)"
+          }
+        ]
+      }
+    ]
+  },
+  "general_fasteners_and_hardware": {
+    "display_name": "General Fasteners & Hardware",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "screws",
+        "display_name": "Screws",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "panel_and_lap_screws",
+            "display_name": "Panel, Lap & Driller Screws (metal siding/roofing)"
+          },
+          {
+            "slug": "wood_and_sheet_metal_screws",
+            "display_name": "Wood & Sheet Metal Screws (#9, wafer head)"
+          },
+          {
+            "slug": "coarse_thread_screws",
+            "display_name": "Coarse Thread General Screws"
+          }
+        ]
+      },
+      {
+        "slug": "nails_and_spikes",
+        "display_name": "Nails & Spikes",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "common_nails",
+            "display_name": "Common Nails (6D, 8D, 16D, 60D)"
+          },
+          {
+            "slug": "duplex_and_double_head_nails",
+            "display_name": "Duplex & Double Head Nails"
+          },
+          {
+            "slug": "cap_nails",
+            "display_name": "Cap Nails (1\", 1-1/2\", 2\")"
+          },
+          {
+            "slug": "spiral_and_ring_shank_nails",
+            "display_name": "Spiral & Ring Shank Nails (Alliance Gator Nail)"
+          }
+        ]
+      },
+      {
+        "slug": "bolts_nuts_and_threaded_rod",
+        "display_name": "Bolts, Nuts & Threaded Rod",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "hex_head_bolts",
+            "display_name": "Hex Head Bolts & Tap Bolts"
+          },
+          {
+            "slug": "nuts_and_washers",
+            "display_name": "Nuts & Washers"
+          },
+          {
+            "slug": "threaded_rod",
+            "display_name": "Threaded Rod (3/8\", 1/4\" pencil rod)"
+          }
+        ]
+      },
+      {
+        "slug": "hinges_and_latches",
+        "display_name": "Hinges & Latches",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "gate_hinges",
+            "display_name": "Gate Hinges (3/4\" dia. and above)"
+          }
+        ]
+      },
+      {
+        "slug": "chain_and_rigging",
+        "display_name": "Chain & Rigging Hardware",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "chain",
+            "display_name": "Chain (3/8\" per foot)"
+          },
+          {
+            "slug": "shackles_and_connectors",
+            "display_name": "Shackles & Rigging Connectors (HDG)"
+          }
+        ]
+      }
+    ]
+  },
+  "paint_and_stain": {
+    "display_name": "Paint & Stain",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "wood_stains_and_finishes",
+        "display_name": "Wood Stains & Finishes",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "log_and_timber_stains",
+            "display_name": "Log & Timber Stains (CAP, CAP Flex \u2014 many colors)"
+          },
+          {
+            "slug": "exterior_wood_stains",
+            "display_name": "Exterior Wood Stains (Sashco)"
+          }
+        ]
+      },
+      {
+        "slug": "wood_preservatives_and_prep",
+        "display_name": "Wood Preservatives & Prep",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "borate_preservatives",
+            "display_name": "Borate Preservatives (Board Defense)"
+          }
+        ]
+      },
+      {
+        "slug": "masonry_and_concrete_coatings",
+        "display_name": "Masonry & Concrete Coatings",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "heavy_duty_masonry_paint",
+            "display_name": "Heavy Duty Masonry Paint (Quickrete \u2014 gray & white)"
+          },
+          {
+            "slug": "elastomeric_coatings",
+            "display_name": "Elastomeric & BASF Thorocoat"
+          },
+          {
+            "slug": "self_leveling_primer",
+            "display_name": "Self-Leveling Primer (Belter Tech CP Prime)"
+          }
+        ]
+      },
+      {
+        "slug": "exterior_paint",
+        "display_name": "Exterior Paint",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "jobsite_paint",
+            "display_name": "Jobsite & Utility Paint (5 gallon)"
+          }
+        ]
+      },
+      {
+        "slug": "paint_applicator_supplies",
+        "display_name": "Paint Applicator Supplies",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "roller_sleeves",
+            "display_name": "Roller Sleeves (9\" \u2014 1/4\", 3/8\", 1/2\", 3/4\" nap)"
+          },
+          {
+            "slug": "mini_roller_sleeves",
+            "display_name": "Mini Roller Sleeves (4\" \u2014 various nap)"
+          },
+          {
+            "slug": "roller_frames",
+            "display_name": "Roller Frames (4\", 8\", 9\")"
+          },
+          {
+            "slug": "paint_brushes_and_chips",
+            "display_name": "Paint Brushes & Chip Brushes (1\", 2\", 3\" \u2014 angle/straight)"
+          },
+          {
+            "slug": "paint_trays_and_accessories",
+            "display_name": "Paint Trays & Accessories"
+          }
+        ]
+      }
+    ]
+  },
+  "construction_adhesives_and_sealants": {
+    "display_name": "Construction Adhesives & Sealants",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "polyurethane_sealants",
+        "display_name": "Polyurethane Sealants",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "np1_and_sonneborn",
+            "display_name": "NP1 & Sonneborn / Masterseal Sealants"
+          },
+          {
+            "slug": "self_leveling_sealants",
+            "display_name": "Self-Leveling Sealants"
+          }
+        ]
+      },
+      {
+        "slug": "silicone_sealants",
+        "display_name": "Silicone Sealants",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "silicone_clear",
+            "display_name": "Clear Silicone"
+          },
+          {
+            "slug": "silicone_colored",
+            "display_name": "Colored Silicone (Bronze, White)"
+          }
+        ]
+      },
+      {
+        "slug": "caulks",
+        "display_name": "Caulks",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "log_home_chinking_caulk",
+            "display_name": "Log Home & Chinking Caulk (CON \u2014 Brown Tone, Frontier Gold, Harvest Wheat, etc.)"
+          },
+          {
+            "slug": "sashco_caulk",
+            "display_name": "Sashco Caulk"
+          },
+          {
+            "slug": "general_caulks",
+            "display_name": "General Purpose Caulks (DAP Alex Plus, Red Devil)"
+          },
+          {
+            "slug": "fire_barrier_caulks",
+            "display_name": "Fire Barrier Caulks (3M Fire Barrier)"
+          }
+        ]
+      },
+      {
+        "slug": "backer_rod_and_foam_backer",
+        "display_name": "Backer Rod & Foam Backer",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "round_backer_rod",
+            "display_name": "Round Backer Rod (1/4\" through 2\" diameter)"
+          },
+          {
+            "slug": "flat_backer_strip",
+            "display_name": "Flat Backer Strip (Sashco Grip Strip)"
+          }
+        ]
+      },
+      {
+        "slug": "wood_epoxy_and_fillers",
+        "display_name": "Wood Epoxy & Fillers",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "woodepox_filler",
+            "display_name": "WoodEpox Filler (ABA \u2014 various sizes)"
+          },
+          {
+            "slug": "epoxy_pigments",
+            "display_name": "Epoxy Pigments (Black, Brick Red, Brown, White)"
+          }
+        ]
+      },
+      {
+        "slug": "expanding_foam",
+        "display_name": "Expanding Foam",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "gaps_and_cracks_foam",
+            "display_name": "Minimal Expanding Foam \u2014 Gaps & Cracks (DOW)"
+          },
+          {
+            "slug": "fill_and_seal_foam",
+            "display_name": "Maximal Expanding Foam \u2014 Fill & Seal (DOW, Fischer, Powers)"
+          }
+        ]
+      },
+      {
+        "slug": "epoxy_anchor_systems",
+        "display_name": "Epoxy Anchor Systems",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "adhesive_anchor_capsules",
+            "display_name": "Adhesive Anchor Capsules (Hilti Epoxy Sleeve)"
+          },
+          {
+            "slug": "construction_adhesives_general",
+            "display_name": "General Construction Adhesives (3M High Strength, 15 Premium Mastic)"
+          }
+        ]
+      }
+    ]
+  },
+  "drywall_and_accessories": {
+    "display_name": "Drywall & Accessories",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "drywall_sheets_and_panels",
+        "display_name": "Drywall Sheets & Panels",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "standard_gypsum_board",
+            "display_name": "Standard Gypsum Board (4'\u00d79' 5/8\")"
+          },
+          {
+            "slug": "glass_mat_sheathing",
+            "display_name": "Glass Mat Sheathing (DENS GLASS Gold)"
+          },
+          {
+            "slug": "cement_board",
+            "display_name": "Cement Board & Fiberock (1/4\", 5/8\")"
+          }
+        ]
+      },
+      {
+        "slug": "metal_framing",
+        "display_name": "Metal Framing (Light Gauge Steel)",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 steel studs and track are a real subset here.",
+        "tier3": [
+          {
+            "slug": "metal_studs",
+            "display_name": "Metal Studs (20 gauge 2-1/2\" \u00d7 10')"
+          },
+          {
+            "slug": "metal_track",
+            "display_name": "Metal Track (20 gauge 2-1/2\" and 3-5/8\")"
+          },
+          {
+            "slug": "metal_framing_accessories",
+            "display_name": "Angles, Furring Channel & Clips"
+          }
+        ]
+      },
+      {
+        "slug": "joint_compound_and_finishing",
+        "display_name": "Joint Compound & Finishing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "fast_setting_compound",
+            "display_name": "Fast-Setting Compounds (Easy Sand 20, 45, 90)"
+          },
+          {
+            "slug": "finish_plaster_and_diamond",
+            "display_name": "Finish Plaster (Diamond Finish)"
+          }
+        ]
+      },
+      {
+        "slug": "tape_corner_bead_and_trim",
+        "display_name": "Tape, Corner Bead & Trim",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "metal_corner_bead",
+            "display_name": "Metal Corner Bead (1-A)"
+          },
+          {
+            "slug": "expansion_bead",
+            "display_name": "Expansion Bead (Double V, J-Bead \u2014 1/2\", 5/8\", 3/4\")"
+          },
+          {
+            "slug": "mesh_and_paper_tape",
+            "display_name": "Mesh Tape & Paperless Tape (Fiba Fuse, G-Force)"
+          }
+        ]
+      },
+      {
+        "slug": "drywall_screws_and_fasteners",
+        "display_name": "Drywall Screws & Fasteners",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "coarse_thread_drywall_screws",
+            "display_name": "Coarse Thread Screws (for wood studs \u2014 Grip Rite)"
+          },
+          {
+            "slug": "fine_thread_drywall_screws",
+            "display_name": "Fine Thread Screws (for metal studs \u2014 Grip Rite)"
+          },
+          {
+            "slug": "cement_board_screws",
+            "display_name": "Cement Board Screws (1-1/4\")"
+          }
+        ]
+      }
+    ]
+  },
+  "rebar_and_reinforcement": {
+    "display_name": "Rebar & Reinforcement",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "rebar",
+        "display_name": "Rebar",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "epoxy_coated_rebar",
+            "display_name": "Epoxy Coated Rebar (#4 through #8)"
+          },
+          {
+            "slug": "rebar",
+            "display_name": "Rebar"
+          }
+        ]
+      },
+      {
+        "slug": "wire_mesh_and_lath",
+        "display_name": "Wire Mesh & Lath",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "diamond_wire_lath",
+            "display_name": "Diamond Wire Lath (2.5 lath)"
+          }
+        ]
+      },
+      {
+        "slug": "rebar_accessories",
+        "display_name": "Rebar Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "rebar_benders_and_cutters",
+            "display_name": "Rebar Benders & Cutters (manual, electric, SDS)"
+          },
+          {
+            "slug": "tie_wire_and_twisters",
+            "display_name": "Tie Wire & Twisters (8\" 16 ga., loop ties, Kraft twister)"
+          },
+          {
+            "slug": "rebar_caps",
+            "display_name": "Rebar Caps (OSHA Mushroom & Flat \u2014 #3 through #12)"
+          }
+        ]
+      }
+    ]
+  },
+  "roofing_materials": {
+    "display_name": "Roofing Materials",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "shingles_and_underlayment",
+        "display_name": "Shingles & Underlayment",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "modified_bitumen_torch_down",
+            "display_name": "Modified Bitumen / Torch Down (APP 160 \u2014 Firestone, PLUVITEC, Johns Manville)"
+          },
+          {
+            "slug": "roof_felt_and_paper",
+            "display_name": "Roof Felt & Paper (15LB, 30LB, 90LB)"
+          },
+          {
+            "slug": "roof_fabric",
+            "display_name": "Roof Fabric & Reinforcing Mesh (4\", 6\", 9\", 12\")"
+          }
+        ]
+      },
+      {
+        "slug": "roof_coatings_and_sealants",
+        "display_name": "Roof Coatings & Sealants",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "aluminum_roof_coatings",
+            "display_name": "Aluminum Roof Coatings (fibered & non-fibered \u2014 Bulldog, Karnak, DEL-VAL)"
+          },
+          {
+            "slug": "silicone_roof_coatings",
+            "display_name": "Silicone Roof Coatings (GACO GR1600 \u2014 white & gray)"
+          },
+          {
+            "slug": "emulsion_and_tar_coatings",
+            "display_name": "Emulsion & Tar-Based Coatings (Karnak 920, Flashing Cement)"
+          }
+        ]
+      },
+      {
+        "slug": "flashing_and_termination",
+        "display_name": "Flashing & Termination",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "peel_and_stick_flashing",
+            "display_name": "Peel & Stick Flashing (Hohman & Barnard Textroflash, Sand-O-Seal)"
+          },
+          {
+            "slug": "metal_drip_edge",
+            "display_name": "Metal Drip Edge & Stainless Steel (Hohman & Barnard)"
+          },
+          {
+            "slug": "termination_bars",
+            "display_name": "Termination Bars (Hohman & Barnard Aluminum T-1)"
+          }
+        ]
+      },
+      {
+        "slug": "roofing_fasteners_and_tools",
+        "display_name": "Roofing Fasteners & Tools",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items.",
+        "tier3": [
+          {
+            "slug": "roofing_nails",
+            "display_name": "Roofing Nails & Cap Nails (1\", 2\", 2-1/2\")"
+          },
+          {
+            "slug": "shingle_shovels",
+            "display_name": "Shingle Shovels (Qual-Craft, Razorback, Roof Zone)"
+          },
+          {
+            "slug": "rafter_squares",
+            "display_name": "Rafter & Carpenter Squares (Johnson, Empire 7\")"
+          }
+        ]
+      }
+    ]
+  },
+  "insulation": {
+    "display_name": "Insulation",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "batt_and_roll_insulation",
+        "display_name": "Batt & Roll Insulation",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "insulation_batts",
+            "display_name": "Insulation Batts & Rolls"
+          }
+        ]
+      },
+      {
+        "slug": "rigid_foam_board",
+        "display_name": "Rigid Foam Board",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "poly_blue_foam_sheathing",
+            "display_name": "Poly Blue Foam Sheathing (Sheathall 2LB density)"
+          },
+          {
+            "slug": "xps_rigid_foam",
+            "display_name": "XPS Rigid Foam Board"
+          }
+        ]
+      },
+      {
+        "slug": "spray_foam",
+        "display_name": "Spray Foam",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "fill_seal_foam",
+            "display_name": "Fill & Seal Foam (DOW, Fischer, Powers)"
+          },
+          {
+            "slug": "foam_applicator_systems",
+            "display_name": "Foam Applicator Guns (Touch N Foam ECO)"
+          }
+        ]
+      },
+      {
+        "slug": "vapor_and_moisture_barriers",
+        "display_name": "Vapor & Moisture Barriers",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "liquid_applied_air_barrier",
+            "display_name": "Liquid-Applied Air & Vapor Barrier (Henry Air Bloc 32, Hohman & Barnard Enviro Barrier)"
+          }
+        ]
+      }
+    ]
+  },
+  "weatherproofing_house_wrap": {
+    "display_name": "Weatherproofing / House Wrap",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "house_wrap_and_building_wrap",
+        "display_name": "House Wrap & Building Wrap",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "tyvek_equivalent",
+            "display_name": "Tyvek-Style Building Wrap"
+          },
+          {
+            "slug": "building_paper",
+            "display_name": "Reinforced Building Paper (G-Force, Pacoa \u2014 48\"\u00d7100yd)"
+          }
+        ]
+      },
+      {
+        "slug": "flashing_tape_and_sealing_tape",
+        "display_name": "Flashing Tape & Sealing Tape",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "butyl_tape",
+            "display_name": "Butyl Tape (single bead 1/2\")"
+          },
+          {
+            "slug": "deck_joist_tape",
+            "display_name": "Deck Joist Tape (Ogden Deck Depot Butyl)"
+          }
+        ]
+      },
+      {
+        "slug": "vapor_barriers_and_poly_sheeting",
+        "display_name": "Vapor Barriers & Poly Sheeting",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "string_reinforced_poly",
+            "display_name": "String Reinforced Poly Sheeting (10'\u00d7100' NFR)"
+          },
+          {
+            "slug": "poly_sheeting",
+            "display_name": "Poly Sheeting"
+          }
+        ]
+      },
+      {
+        "slug": "tarps_and_temporary_covers",
+        "display_name": "Tarps & Temporary Covers",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "blue_poly_tarps",
+            "display_name": "Blue Poly Tarps (various sizes)"
+          },
+          {
+            "slug": "green_heavy_duty_tarps",
+            "display_name": "Green Heavy Duty Tarps (G-Force, BOEN)"
+          },
+          {
+            "slug": "fire_retardant_tarps",
+            "display_name": "Fire Retardant Tarps (BOEN, white/green)"
+          }
+        ]
+      },
+      {
+        "slug": "shrink_wrap",
+        "display_name": "Shrink Wrap",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "shrink_wrap_rolls",
+            "display_name": "Shrink Wrap Rolls (18\" width)"
+          }
+        ]
+      }
+    ]
+  },
+  "structural_fasteners_and_connectors": {
+    "display_name": "Structural Fasteners & Connectors",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "joist_hangers_and_beam_connectors",
+        "display_name": "Joist Hangers & Beam Connectors",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "joist_hangers",
+            "display_name": "Joist Hangers (10\"\u00d72.5\", 10\"\u00d73.5\" \u2014 Simpson HUC)"
+          },
+          {
+            "slug": "masonry_wall_reinforcement",
+            "display_name": "Masonry Wall Reinforcement (Dur-O-Wall Truss \u2014 4\" to 12\")"
+          }
+        ]
+      },
+      {
+        "slug": "post_bases_and_caps",
+        "display_name": "Post Bases & Caps",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "post_bases",
+            "display_name": "Post Bases (Simpson BC4, BC6, AC4, AC6, ABW44Z, ABW66Z)"
+          },
+          {
+            "slug": "deck_rail_post_hardware",
+            "display_name": "Deck Rail Post Hardware (Fortress, TimberTech Fulton, Royal Guard)"
+          }
+        ]
+      },
+      {
+        "slug": "hurricane_and_seismic_straps",
+        "display_name": "Hurricane & Seismic Straps",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "hurricane_ties",
+            "display_name": "Hurricane Ties (Simpson H1A)"
+          },
+          {
+            "slug": "tension_and_tiedown",
+            "display_name": "Tension & Tiedown Connectors (Simpson DTT1Z, BVLZ)"
+          },
+          {
+            "slug": "continuous_strap",
+            "display_name": "Continuous Strap & Angle (Simpson CS16, A35, A23Z, LS90)"
+          }
+        ]
+      },
+      {
+        "slug": "structural_screws_and_bolts",
+        "display_name": "Structural Screws & Bolts",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "sds_structural_screws",
+            "display_name": "SDS Structural Screws (Simpson 1/4\"\u00d74.5\")"
+          },
+          {
+            "slug": "lag_screws",
+            "display_name": "Lag Screws (Starborn 3/8\" \u00d7 3\"\u201310\")"
+          },
+          {
+            "slug": "titen_concrete_anchors",
+            "display_name": "Titen Concrete Anchors (Simpson HD Titen)"
+          },
+          {
+            "slug": "powder_actuated_fasteners",
+            "display_name": "Powder-Actuated Fasteners (Simpson 27 cal strip shots)"
+          }
+        ]
+      }
+    ]
+  },
+  "sitework_and_drainage": {
+    "display_name": "Sitework & Drainage",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "drainage_pipe_and_fittings",
+        "display_name": "Drainage Pipe & Fittings",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "solid_flexible_drain_pipe",
+            "display_name": "Solid Flexible Drain Pipe (Flex-Drain 4\" \u00d7 25' & 50')"
+          },
+          {
+            "slug": "perforated_drain_pipe",
+            "display_name": "Perforated Drain Pipe (4\" S&D, corrugated)"
+          },
+          {
+            "slug": "pvc_fittings",
+            "display_name": "PVC Drain Fittings (4\" Tee, Y-connector, couplers)"
+          },
+          {
+            "slug": "downspout_adapters",
+            "display_name": "Downspout Adapters (Flex-Drain 2\"\u00d73\"\u00d74\")"
+          }
+        ]
+      },
+      {
+        "slug": "geotextile_fabric",
+        "display_name": "Geotextile Fabric",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "woven_geotextile",
+            "display_name": "Woven Geotextile (Gator Fabric 5 \u2014 high strength)"
+          },
+          {
+            "slug": "non_woven_geotextile",
+            "display_name": "Non-Woven Geotextile (Gator Fabric 3.5 & 4.4)"
+          },
+          {
+            "slug": "spun_bond_geotextile",
+            "display_name": "Spun Bond Geotextile (Gator Fabric 3 & 20 Polyspun)"
+          }
+        ]
+      },
+      {
+        "slug": "erosion_control",
+        "display_name": "Erosion Control",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "silt_fence",
+            "display_name": "Silt Fence with Stakes (36\"\u00d7100')"
+          }
+        ]
+      }
+    ]
+  },
+  "plants_and_landscaping": {
+    "display_name": "Plants & Landscaping",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "gravel_and_aggregate",
+        "display_name": "Gravel & Aggregate",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "pea_gravel",
+            "display_name": "Pea Gravel (3/8\" and 3/4\" bagged 50LB)"
+          },
+          {
+            "slug": "crushed_stone",
+            "display_name": "Crushed Stone (Bag 3/4\" stone, 1-ton super sack)"
+          }
+        ]
+      },
+      {
+        "slug": "sand",
+        "display_name": "Sand",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "bagged_sand",
+            "display_name": "Bagged Sand (50LB)"
+          }
+        ]
+      },
+      {
+        "slug": "landscape_stone",
+        "display_name": "Landscape Limestone & Natural Stone",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "limestone_treads_and_caps",
+            "display_name": "Limestone Treads & Caps (48\"\u201372\"\u00d76\"\u201312\")"
+          },
+          {
+            "slug": "french_limestone_tile",
+            "display_name": "French Limestone Tile (2CM 16\"\u00d732\")"
+          },
+          {
+            "slug": "cobblestone_edging",
+            "display_name": "Cobblestone Edging (Bradstone)"
+          }
+        ]
+      },
+      {
+        "slug": "landscape_fabric_and_ground_cover",
+        "display_name": "Landscape Fabric & Ground Cover",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items.",
+        "tier3": [
+          {
+            "slug": "woven_landscape_fabric",
+            "display_name": "Woven Landscape Fabric (Craftsmen's 3'\u00d750')"
+          },
+          {
+            "slug": "artificial_grass",
+            "display_name": "Artificial Grass (Garden Mark \u2014 Kentucky, Montana, Augusta)"
+          }
+        ]
+      },
+      {
+        "slug": "irrigation_and_hoses",
+        "display_name": "Irrigation & Hoses",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 significant hose/irrigation inventory.",
+        "tier3": [
+          {
+            "slug": "garden_hoses",
+            "display_name": "Garden Hoses (Flexon 50' & 100' \u2014 light & heavy duty)"
+          },
+          {
+            "slug": "soaker_hoses",
+            "display_name": "Soaker Hoses (50' 3-tube)"
+          },
+          {
+            "slug": "hose_nozzles_and_fittings",
+            "display_name": "Hose Nozzles & Fittings (5-pattern, brass, pistol grip)"
+          }
+        ]
+      }
+    ]
+  },
+  "electrical": {
+    "display_name": "Electrical",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "wire_and_cable",
+        "display_name": "Wire & Cable",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "romex_and_thhn",
+            "display_name": "Romex & THHN Wire"
+          },
+          {
+            "slug": "electrical_tape",
+            "display_name": "Electrical Tape (PVC \u2014 Satco, Tuff Stuff, 3M)"
+          }
+        ]
+      },
+      {
+        "slug": "power_distribution",
+        "display_name": "Power Distribution & GFCI",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 significant power distribution inventory.",
+        "tier3": [
+          {
+            "slug": "power_strips_and_adapters",
+            "display_name": "Power Strips & Adapters (6-outlet, surge protector, Go Green)"
+          },
+          {
+            "slug": "gfci_cords_and_blocks",
+            "display_name": "GFCI Cords & Power Blocks (CEP, 12/3 GFI)"
+          },
+          {
+            "slug": "extension_cords_electrical",
+            "display_name": "Extension Cords (12' to 100' \u2014 14/3, 16/3)"
+          }
+        ]
+      },
+      {
+        "slug": "junction_boxes_and_accessories",
+        "display_name": "Junction Boxes & Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "access_panels",
+            "display_name": "Access Panels (Oatey 6\"\u00d79\", 8\"\u00d78\")"
+          },
+          {
+            "slug": "split_bolts_and_connectors",
+            "display_name": "Split Bolts & Electrical Connectors (2\", 3\" flat head)"
+          }
+        ]
+      }
+    ]
+  },
+  "flooring": {
+    "display_name": "Flooring",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "luxury_vinyl_plank",
+        "display_name": "Luxury Vinyl Plank (LVP)",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "lvp_kilimanjaro_series",
+            "display_name": "Kilimanjaro Series (Addis Ababa Oak, Cairo Hickory, Zanzibar Oak, etc.)"
+          },
+          {
+            "slug": "lvp_standard_collections",
+            "display_name": "Standard LVP Collections (Coastal, Prairie, Malibu, etc.)"
+          }
+        ]
+      },
+      {
+        "slug": "hardwood_flooring",
+        "display_name": "Hardwood Flooring",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "red_oak_flooring",
+            "display_name": "Red Oak Flooring (8ft, board feet)"
+          },
+          {
+            "slug": "white_oak_flooring",
+            "display_name": "White Oak Flooring (8/4 rough, 2\"\u00d79\", 2\"\u00d711\")"
+          },
+          {
+            "slug": "walnut_and_mixed_hardwood_flooring",
+            "display_name": "Walnut & Mixed Hardwood Flooring"
+          }
+        ]
+      },
+      {
+        "slug": "tile_flooring",
+        "display_name": "Tile Flooring",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 granite and tile SKUs present.",
+        "tier3": [
+          {
+            "slug": "granite_tile",
+            "display_name": "Granite Tiles (12\"\u00d712\" Charcoal & Light Gray)"
+          },
+          {
+            "slug": "tile_setting_for_floors",
+            "display_name": "Tile Setting for Floors (Bostik Mastic, Strata Heat)"
+          }
+        ]
+      },
+      {
+        "slug": "flooring_trim_and_transitions",
+        "display_name": "Flooring Trim & Transitions",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "flooring_installation_tools",
+            "display_name": "Flooring Installation Tools (floor chisel, scraper, knee pads)"
+          },
+          {
+            "slug": "flooring_protection",
+            "display_name": "Flooring Protection Film (G-Force 48\"\u00d7500' carpet film)"
+          },
+          {
+            "slug": "radiant_heat_flooring",
+            "display_name": "Radiant Floor Heating (Laticrete Strata Heat 240V cable)"
+          }
+        ]
+      }
+    ]
+  },
+  "siding": {
+    "display_name": "Siding",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "natural_edge_and_rustic_siding",
+        "display_name": "Natural Edge & Rustic Siding",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "bark_on_natural_edge_siding",
+            "display_name": "Bark-On Natural Edge Siding (1S & 2S \u2014 1x6, 1x8, 1x10, 2x8)"
+          },
+          {
+            "slug": "hand_peeled_natural_edge_siding",
+            "display_name": "Hand Peeled Natural Edge Siding (1S & 2S)"
+          },
+          {
+            "slug": "rough_cut_siding_boards",
+            "display_name": "Rough Cut Siding Boards (1x12, full-dimension)"
+          }
+        ]
+      },
+      {
+        "slug": "cedar_and_wood_siding",
+        "display_name": "Cedar & Wood Siding",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "s1s2e_cedar_siding",
+            "display_name": "S1S2E Cedar Siding (1x4 through 1x12, various lengths)"
+          },
+          {
+            "slug": "kiln_dried_pine_siding",
+            "display_name": "Kiln Dried Pine Siding Boards (1x6, 1x8)"
+          },
+          {
+            "slug": "incense_cedar_siding",
+            "display_name": "Incense Cedar Boards (IC 4x8x10')"
+          }
+        ]
+      },
+      {
+        "slug": "fiber_cement_siding",
+        "display_name": "Fiber Cement Siding",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "fiber_cement_blades",
+            "display_name": "Fiber Cement Cutting Blades (IVY 7-1/4\")"
+          }
+        ]
+      },
+      {
+        "slug": "siding_caulks_and_sealants",
+        "display_name": "Siding Caulks & Sealants",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 many log home caulks appear here.",
+        "tier3": [
+          {
+            "slug": "log_home_caulk_for_siding",
+            "display_name": "Log Home Caulk (CON \u2014 Brown Tone, Frontier Gold, Harvest Wheat, Weathered Gray)"
+          },
+          {
+            "slug": "general_siding_caulk",
+            "display_name": "General Siding Caulk (Red Devil Lifetime Ultra)"
+          }
+        ]
+      }
+    ]
+  },
+  "kitchen_and_bath": {
+    "display_name": "Kitchen & Bath",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "outdoor_kitchen_cabinetry",
+        "display_name": "Outdoor Kitchen Cabinetry",
+        "drill_down_recommended": false,
+        "notes": "Dominant sub-group in actual data \u2014 FA Veneer, MAYTRX, OE Wall systems.",
+        "tier3": [
+          {
+            "slug": "fa_veneer_cabinets",
+            "display_name": "FA Veneer Outdoor Kitchen Cabinets (DD Cabinet, Grill Cabinet, Refrigerator)"
+          },
+          {
+            "slug": "maytrx_kitchen_systems",
+            "display_name": "MAYTRX Kitchen Systems (Onyx/Natural, Sahara/Chestnut, Toffee/Onyx)"
+          },
+          {
+            "slug": "olde_english_kitchen_kits",
+            "display_name": "Olde English Wall Kitchen Kits (OE Wall)"
+          }
+        ]
+      },
+      {
+        "slug": "outdoor_grills_and_appliances",
+        "display_name": "Outdoor Grills & Appliances",
+        "drill_down_recommended": false,
+        "notes": "Coyote brand dominates.",
+        "tier3": [
+          {
+            "slug": "coyote_grills_drop_in",
+            "display_name": "Coyote Grills \u2014 Drop-In (34\", 42\")"
+          },
+          {
+            "slug": "coyote_side_burners",
+            "display_name": "Coyote Side Burners & Asado Cookers"
+          },
+          {
+            "slug": "grill_door_drawer_combos",
+            "display_name": "Grill Door & Drawer Combos (Coyote, Stainless Steel)"
+          }
+        ]
+      },
+      {
+        "slug": "waterproofing_and_wet_area",
+        "display_name": "Waterproofing & Wet Area",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "hydro_ban_membrane",
+            "display_name": "Hydro Ban Waterproofing Membrane & Drains"
+          }
+        ]
+      },
+      {
+        "slug": "cabinetry",
+        "display_name": "Interior Cabinetry & Trim Lumber",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cabinet_trim_lumber",
+            "display_name": "Cabinet & Trim Lumber (6'\u201316' lengths)"
+          }
+        ]
+      }
+    ]
+  },
+  "plumbing": {
+    "display_name": "Plumbing",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "pipe_and_fittings",
+        "display_name": "Pipe & Fittings",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "pvc_pipe_and_fittings",
+            "display_name": "PVC Pipe & Fittings (3/4\"\u00d710', 4\" tee, Y-connector)"
+          }
+        ]
+      },
+      {
+        "slug": "valves_and_controls",
+        "display_name": "Valves & Controls",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "angle_valves",
+            "display_name": "Angle Valves & Keys (1/2\" angle key valve)"
+          }
+        ]
+      },
+      {
+        "slug": "plumbing_tools",
+        "display_name": "Plumbing Tools",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items.",
+        "tier3": [
+          {
+            "slug": "pipe_wrenches",
+            "display_name": "Pipe Wrenches (18\" aluminum, 24\" aluminum)"
+          },
+          {
+            "slug": "adjustable_wrenches",
+            "display_name": "Adjustable Wrenches (IVY Classic 6\", Tuff Stuff 10\")"
+          },
+          {
+            "slug": "tubing_levels",
+            "display_name": "Tubing Levels (Master Plumber clear tubing)"
+          }
+        ]
+      }
+    ]
+  },
+  "hvac": {
+    "display_name": "Heating, Venting & Cooling (HVAC)",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "heating_systems",
+        "display_name": "Heating Systems & Equipment",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "radiant_floor_heating",
+            "display_name": "Radiant Floor Heating (Laticrete Strata Heating System)"
+          }
+        ]
+      },
+      {
+        "slug": "ductwork_and_registers",
+        "display_name": "Ductwork & Registers",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "flex_duct",
+            "display_name": "Mylar Flex Duct (12\" \u00d7 25')"
+          },
+          {
+            "slug": "flue_pipe",
+            "display_name": "Flue Pipe \u2014 Round & Rectangle (8.5\"\u00d78.5\", 8.5\"\u00d713\", 10\" round, 13\"\u00d713\")"
+          },
+          {
+            "slug": "duct_tape",
+            "display_name": "Duct Tape (DeWalt, IPG, Scotch, Shurtape \u2014 2\" wide)"
+          }
+        ]
+      },
+      {
+        "slug": "ventilation",
+        "display_name": "Ventilation",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "masonry_weep_vents",
+            "display_name": "Masonry Weep Vents (Quadro-Vent gray & black, Weeps Rect Grey)"
+          },
+          {
+            "slug": "pergola_ventilation",
+            "display_name": "Pergola Fans & Bioclimatic Pergolas"
+          }
+        ]
+      }
+    ]
+  },
+  "framing_materials": {
+    "display_name": "Framing Materials",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "dimensional_framing_lumber",
+        "display_name": "Dimensional Framing Lumber",
+        "drill_down_recommended": false,
+        "notes": "Dominant sub-group \u2014 Douglas Fir in all framing sizes.",
+        "tier3": [
+          {
+            "slug": "douglas_fir_framing",
+            "display_name": "Douglas Fir Framing & Posts"
+          }
+        ]
+      },
+      {
+        "slug": "i_joists_and_rim_board",
+        "display_name": "I-Joists & Rim Board",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "i_joists",
+            "display_name": "I-Joists (various depths)"
+          }
+        ]
+      },
+      {
+        "slug": "masonry_joint_reinforcement",
+        "display_name": "Masonry Joint Reinforcement",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 Dur-O-Wall truss wire is a real sub-group here.",
+        "tier3": [
+          {
+            "slug": "dur_o_wall_truss",
+            "display_name": "Dur-O-Wall Truss Wire (4\", 6\", 8\", 10\", 12\")"
+          }
+        ]
+      }
+    ]
+  },
+  "sheathing": {
+    "display_name": "Sheathing",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "osb_sheathing",
+        "display_name": "OSB Sheathing",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "osb_standard",
+            "display_name": "Standard OSB (7/16\" 4'\u00d78')"
+          },
+          {
+            "slug": "osb_variable",
+            "display_name": "OSB Variable Dimension / Specialty"
+          }
+        ]
+      },
+      {
+        "slug": "structural_plywood",
+        "display_name": "Structural Plywood",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "cdx_plywood",
+            "display_name": "CDX Plywood (1/4\", 3/8\", 1/2\", 5/8\", 3/4\")"
+          },
+          {
+            "slug": "marine_and_premium_plywood",
+            "display_name": "Marine & Premium Plywood (3/4\" A-B, Birch, Fir Mill Cert)"
+          }
+        ]
+      },
+      {
+        "slug": "sheathing_fasteners_and_accessories",
+        "display_name": "Sheathing Fasteners & Accessories",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items.",
+        "tier3": [
+          {
+            "slug": "cap_nails_sheathing",
+            "display_name": "Cap Nails for Sheathing (SCS 1\" & 2\" \u2014 25LB)"
+          },
+          {
+            "slug": "osb_adhesive_brushes",
+            "display_name": "OSB Adhesive Brushes (4\" & 6\")"
+          }
+        ]
+      }
+    ]
+  },
+  "doors": {
+    "display_name": "Doors",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "exterior_doors",
+        "display_name": "Exterior Doors",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "outdoor_kitchen_doors",
+            "display_name": "Outdoor Kitchen Doors (Coyote Door & Drawer, Stainless Steel)"
+          }
+        ]
+      },
+      {
+        "slug": "interior_doors",
+        "display_name": "Interior Doors",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "mailbox_doors",
+            "display_name": "Mailbox Door with Box"
+          }
+        ]
+      },
+      {
+        "slug": "temporary_construction_barriers",
+        "display_name": "Temporary Construction Barriers",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 Zip Wall systems are a real sub-group.",
+        "tier3": [
+          {
+            "slug": "zip_wall_systems",
+            "display_name": "Zip Wall Systems (Spring Pole Set, Zipdoor Commercial)"
+          }
+        ]
+      },
+      {
+        "slug": "door_hardware",
+        "display_name": "Door & Window Sealants",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "silicone_window_door",
+            "display_name": "Silicone Window & Door (GE \u2014 white, bronze, clear)"
+          },
+          {
+            "slug": "window_sill_trim",
+            "display_name": "Window Sill & Threshold (Canyon 18\" \u2014 Autumn Leaves, Indian Brown, etc.)"
+          }
+        ]
+      }
+    ]
+  },
+  "windows": {
+    "display_name": "Windows",
+    "drill_down_recommended": false,
+    "subcategories": [
+      {
+        "slug": "vinyl_windows",
+        "display_name": "Vinyl Windows",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "vinyl_retrofit_windows",
+            "display_name": "Vinyl Retrofit Windows (59.5\"\u00d747.5\")"
+          }
+        ]
+      },
+      {
+        "slug": "specialty_glass_products",
+        "display_name": "Specialty Glass Products",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items.",
+        "tier3": [
+          {
+            "slug": "glass_block",
+            "display_name": "Glass Block (P.C. 6\"\u00d78\"\u00d73\" and 8\"\u00d78\"\u00d74\" Decora)"
+          }
+        ]
+      },
+      {
+        "slug": "window_hardware",
+        "display_name": "Window Hardware & Accessories",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "window_sealants",
+            "display_name": "Window Sealants (GE Silicone, DAP Alex Plus, Red Devil)"
+          },
+          {
+            "slug": "window_cleaning_tools",
+            "display_name": "Window Cleaning Tools (Ettore 12\" squeegee)"
+          }
+        ]
+      }
+    ]
+  },
+  "miscellaneous": {
+    "display_name": "Miscellaneous",
+    "drill_down_recommended": false,
+    "notes": "Safety & PPE is the largest sub-group and could eventually be its own top-level category.",
+    "subcategories": [
+      {
+        "slug": "safety_and_ppe",
+        "display_name": "Safety & PPE",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "head_protection",
+            "display_name": "Head Protection (hard hats \u2014 North, NORTH RED)"
+          },
+          {
+            "slug": "eye_and_face_protection",
+            "display_name": "Eye & Face Protection (safety glasses, goggles, face shields \u2014 Bulldog, NSX Turbo, Velar, Honeywell)"
+          },
+          {
+            "slug": "hand_protection",
+            "display_name": "Hand Protection (gloves \u2014 nitrile, leather, mechanics, gauntlet, rubber acid)"
+          },
+          {
+            "slug": "respiratory_protection",
+            "display_name": "Respiratory Protection (respirators, masks \u2014 3M 8511, Honeywell OV/R95)"
+          },
+          {
+            "slug": "fall_protection",
+            "display_name": "Fall Protection (harnesses, lanyards, rope grabs \u2014 Palmer, Miller)"
+          },
+          {
+            "slug": "high_visibility_clothing",
+            "display_name": "High-Visibility Clothing (vests, rainsuits, coveralls \u2014 G-Force, Pyramex, Boss, Buffalo)"
+          },
+          {
+            "slug": "site_safety_equipment",
+            "display_name": "Site Safety Equipment (traffic cones, safety flags, demo chutes)"
+          }
+        ]
+      },
+      {
+        "slug": "delivery_and_service_fees",
+        "display_name": "Delivery & Service Fees",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "delivery_fees",
+            "display_name": "Delivery Fees"
+          },
+          {
+            "slug": "labor_charges",
+            "display_name": "Labor Charges"
+          },
+          {
+            "slug": "pallet_returns",
+            "display_name": "Pallet Returns (Quikrete, Montfort)"
+          }
+        ]
+      },
+      {
+        "slug": "cleaning_and_maintenance",
+        "display_name": "Cleaning & Maintenance Products",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "solvents_and_cleaners",
+            "display_name": "Solvents & Cleaners (acetone, lacquer thinner, fast orange, bleach)"
+          },
+          {
+            "slug": "lubricants_and_greases",
+            "display_name": "Lubricants & Greases (WD-40, grease buckets, kerosene)"
+          },
+          {
+            "slug": "ice_melt_and_treatment",
+            "display_name": "Ice Melt & Concrete Treatment (calcium chloride, ice melt 50LB)"
+          }
+        ]
+      },
+      {
+        "slug": "outdoor_structures",
+        "display_name": "Outdoor Structures & Living",
+        "drill_down_recommended": false,
+        "notes": "Added based on actual items \u2014 pavilion kits and pergolas are a real sub-group.",
+        "tier3": [
+          {
+            "slug": "pavilion_kits",
+            "display_name": "Pavilion Kits (10'\u00d715', 12'\u00d718' \u2014 cathedral & flat ceiling)"
+          },
+          {
+            "slug": "pergola_kits",
+            "display_name": "Pergola Kits (fiberglass, 16'\u00d716', 20'\u00d720' \u2014 various canopy colors)"
+          }
+        ]
+      },
+      {
+        "slug": "general_site_supplies",
+        "display_name": "General Site Supplies",
+        "drill_down_recommended": false,
+        "tier3": [
+          {
+            "slug": "buckets_and_containers",
+            "display_name": "Buckets, Containers & Gas Cans (5 gal buckets, garbage cans, gas cans)"
+          },
+          {
+            "slug": "waste_disposal",
+            "display_name": "Waste Disposal (contractor bags, shop vac)"
+          },
+          {
+            "slug": "shop_and_facility_supplies",
+            "display_name": "Shop & Facility Supplies (toilet paper, paper towels, mop buckets)"
+          }
+        ]
+      }
+    ]
+  }
+}

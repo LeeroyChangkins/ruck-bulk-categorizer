@@ -1,0 +1,22 @@
+# Environment / credentials
+.env
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Downloaded and output data (can be large, env-specific)
+prod/
+dev/
+trash/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# macOS
+.DS_Store
