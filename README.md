@@ -82,6 +82,31 @@ The interactive menu will guide you through:
 
 ---
 
+## Inspection queries
+
+Copy-paste SQL queries for visually inspecting the data are in [`queries.sql`](queries.sql).
+
+Queries included:
+1. Category tree (full hierarchy with depth)
+2. Leaf categories with item + attribute counts
+3. Parent/non-leaf categories
+4. Items per leaf category sorted by count
+5. Items with their assigned categories
+6. Items with NO category assigned
+7. Items with categories AND attribute values
+8. Items missing all attribute values
+9. All attributes per category
+10. Attribute units
+11. Category → attributes → units (full taxonomy)
+12. Attribute value distribution for a single key
+13. Most common attribute values across all items
+14. Coverage — how many items have each attribute filled in
+15. Items with a specific category path
+16. Search items by title keyword
+17. Summary dashboard (counts of everything)
+
+---
+
 ## Script reference
 
 | Script | Purpose |
