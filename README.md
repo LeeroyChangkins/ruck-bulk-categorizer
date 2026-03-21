@@ -13,7 +13,7 @@ Pulls items from the database, runs an LLM pipeline to assign leaf categories an
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install psycopg2-binary tqdm openai python-dotenv
+pip install -r requirements.txt
 ```
 
 ### 2. Credentials
